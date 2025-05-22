@@ -16,4 +16,5 @@ A simple web-based drum kit built with HTML, CSS, and JavaScript.
 3. Click **"Stop"** to finish recording.
 4. Click **"Play"** to replay your recorded beat.
 5. Toggle **Dark Mode** using the button at the top.
+6. If you press **"Record"** again, a new Recording will start. 
 
