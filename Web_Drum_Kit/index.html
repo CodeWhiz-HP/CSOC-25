@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,700;1,700&family=Share+Tech&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>My Drum</h1>
+      <button id="dark-mode-toggle">Dark/Light Mode</button>
+    </header>
+    <div class="drum-img1">
+      <img
+        src="https://cdn.pixabay.com/photo/2012/04/13/00/39/drums-31359_1280.png"
+        alt=""
+      />
+    </div>
+    <div class="drum-kit">
+      <div class="col1">
+        <div class="key" id="kick">
+          <button class="drum" data-key="A">A</button>
+          <p>: Kick Drum</p>
+        </div>
+        <div class="key" id="snare">
+          <button class="drum" data-key="S">S</button>
+          <p>: Snare Drum</p>
+        </div>
+        <div class="key" id="hi-hat-closed">
+          <button class="drum" data-key="D">D</button>
+          <p>: Hi-Hat (Closed)</p>
+        </div>
+        <div class="key" id="hi-hat-open">
+          <button class="drum" data-key="F">F</button>
+          <p>: Hi-Hat (Open)</p>
+        </div>
+      </div>
+      <div class="drum-img2">
+        <img
+          src="https://cdn.pixabay.com/photo/2012/04/13/00/39/drums-31359_1280.png"
+          alt=""
+        />
+      </div>
+      <div class="col2">
+        <div class="key" id="high-tom">
+          <p>Tom 1 (High Tom) :</p>
+          <button class="drum" data-key="G">G</button>
+        </div>
+        <div class="key" id="mid-tom">
+          <p>Tom 2 (Mid-Tom) :</p>
+          <button class="drum" data-key="H">H</button>
+        </div>
+        <div class="key" id="crash">
+          <p>Crash Cymbal :</p>
+          <button class="drum" data-key="J">J</button>
+        </div>
+        <div class="key" id="ride">
+          <p>Ride Cymbal :</p>
+          <button class="drum" data-key="K">K</button>
+        </div>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="recordBtn" id="record">Record</button>
+      <button class="stopBtn" id="stop">Stop</button>
+      <button class="playBtn" id="play">Play</button>
+      <span id="timer">⏱️ 0.0s</span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
